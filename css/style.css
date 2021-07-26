@@ -1,0 +1,77 @@
+html,body{
+    width: 100%;
+    height: 100%;  
+    overflow: hidden;
+  
+    
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 60px;
+    display: inline-block;
+    
+    
+}
+.logo-img{
+    vertical-align: middle;
+}
+.nav-div{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    
+}
+.link-nav{
+    display: inline-block;
+    text-align: center;
+    
+    
+}
+.nav-ul{
+    text-align: center;
+    
+    
+}
+.nav-li{
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    vertical-align: middle;
+    
+}
+.nav-a{
+    text-decoration: none;
+    color: #1C4961;
+}
+.connect{
+    display: inline-block;
+    
+}
+.connect-button{
+    display: inline-block;
+    width: 100px;
+    border-radius: 20px;
+    height: 30px;
+    background-color: #4468E2;
+    border: none;
+    align-items: center;
+    margin-right: 60px;
+    color: #ffffff;
+    
+}.slider-content{
+    
+}
+.slider-content{
+    
+    text-align: center;
+}
+.slider-image{
+    display: inline-block;
+    width: 1400px;
+    
+}   
