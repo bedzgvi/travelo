@@ -60,6 +60,26 @@ html,body{
     margin-right: 60px;
     color: #ffffff;
 }
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------slider-----------------------------------*/
+
+
+
+
+
+
+
+
+
+
 .slider-content{
     
     text-align: center;
@@ -149,8 +169,23 @@ html,body{
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
 }
+
+
+
+
+
+
+/*-------------------------------------card--------------------------------------*/
+
+
+
+
+
+
+
+
 .card{
-    margin-top: 170px;
+    margin-top: 50px;
     height: 400px;
     width: 1400px;
     background-color: #ffffff;
@@ -184,25 +219,48 @@ html,body{
     margin-bottom: 20px;
     font-size: 24px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------recomended box---------------------------------------*/
+
+
+
+
+
+
+
+
+
+
 .recomended-box{
     background-color: #F1FAFF;
     display: inline-block;
     width: 100%;
+    
     
 
 }
 .recomended-h2{
     text-align: center;
     font-size: 40px;
-    margin-top: 100px;
-    margin-bottom: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .recomended-nav-div{
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 200px;
+    
     
 }
 .recomended-nav{
@@ -234,26 +292,330 @@ html,body{
     padding-bottom: 13px;
 }
 .background-element{
-    position: absolute;
     display: inline-block;
+    top: 60px;
+    position: relative;
+    
+    
     
 }
 .background-element-img{
     width: 131px;
     height: 115px;
     
+    
 }
 .description-card-box{
-    width: 1400px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    background-color: #F1FAFF;
   
 }
 .description-card{
     display: inline-block;
+
+    
 }
-.description-car-img{
+.description-card-img{
     width: 452px;
     height: 298px;
+    
+
+
+    
+}
+
+.description-div-box{
+    width: 452px;
+    padding-left: 30px;
+    margin-bottom: 100px;
+    
+    
+}
+.name-card{
+    font-size: 30px;
+    
+}
+.description-card{
+    font-size: 15px;
+    color: #163235;
+    margin-top: 10px;
+    
+}
+.icon-description{
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+.price{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 230px;
+    font-size: 20px;
+   
+    
+}
+.icon-description-div{
+    margin-top: 40px;
+}
+.distance-day{
+    margin-top: 8px;
+}
+.distance{
+    display: inline-block;
+}
+.day{
+    display: inline-block;
+    float: right;
+    margin-right: 60px;
+}
+
+
+
+
+
+/*-----------------------------------blog-------------------------------------*/
+
+
+
+
+
+
+
+
+.div-blogs{
+    width: 100%;
+    text-align: center;
+
+}
+
+.blogs-card{
+    display: inline-block;
+    
+
+}
+
+.blogs-card-1{
+    display: inline-block;
+}
+
+
+
+.h1-blogs{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.blog-image1{
+    display: inline-block;
+    
+}
+
+.blogs-card{
+    display: inline-block;
+    position: relative;
+}
+
+
+
+.blog-img1{
+    width: 765px;
+    height: 390px;
+    display: inline-block;
+    position: relative;
+    filter: brightness(50%);
+        
+    
+   
+}
+
+
+.blogs2{
+    width: 666px;
+    display: inline-block;
+    position: relative;
+}
+
+
+.blog-img2{
+    width: 665px;
+    height: 195px;
+    display: inline-block;
+    filter: brightness(50%);
+    
+   
+
+}
+.blog-img3{
+    width: 665px;
+    height: 195px;
+    display: inline-block;
+    filter: brightness(50%);
+    
+    
+    
+
+}
+
+.h2-blogs-img-txt1{
+    position: absolute;
+    bottom: 150px;
+    color: #ffffff;
+    font-size: 45px;
+    left: 190px;
+
+}
+
+.h2-blogs-img-txt2{
+    position: absolute; 
+    bottom: 280px;
+    left: 180px;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+
+    
+
+   
+}
+
+.h2-blogs-img-txt3{
+    position: absolute;
+    bottom: 80px;
+    left: 150px;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+
+    
+    
+   
+}
+
+
+
+
+/*--------------------------------Happy Customers----------------------------*/
+
+
+
+
+
+
+.Happy-Customers-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.customers-card{
+    display: inline-block;
+
+}
+
+.custumerblogs{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.icon-customers{
+    display: inline-block;
+    width: 30px;
+    vertical-align: top;
+}
+
+.p-customers{
+    display: inline-block;
+    margin-left: 5px;
+}
+.customers-ellipse{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+}
+.ellipse-description{
+    display: inline-block;
+}
+.div-customer-descriptyon{
+    margin-top: 30px;
+    margin-left:35px;
+}
+
+
+
+
+/*-----------------------------------footer--------------------------*/
+
+.footer{
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    
+   
+}
+.footer-box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    height: 110px;
+    background-color: #E1E8F8;
+    border-radius: 10px;
+
+
+    
+
+}
+.autor-p{
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer-navigation-nav{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 250px;
+}
+
+.footer-sociall{
+    margin-left: 300px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-navigation-li{
+    display: inline-block;
+    margin: 25px;
+    
+    
+    
+}
+.footer-navigation-a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+
+.facebook-icon{
+   width: 30px;
+   margin: 10px; 
+}
+.linkdin-icon{
+    width: 30px;
+    margin: 10px; 
+}
+.instagram-icon{
+    width: 30px;
+    margin: 10px; 
+}
+.bottom-footer{
+    width: 100%;
+    height: 10px;
+    
+    
 }
